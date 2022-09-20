@@ -6,6 +6,9 @@ import input from '../input';
 import StablePoolFactoryAbi from '../abi/StablePoolFactory.json';
 import { StablePoolFactoryCreateParameters } from './types';
 import { Output } from '../../types';
+import { transactionOverrides } from '../../constants';
+
+const TRANSACTION_CONFIRMATIONS_TO_WAIT_FOR = 1;
 
 async function create({
   name,
@@ -25,15 +28,32 @@ async function create({
     StablePoolFactoryAddress
   )) as StablePoolFactory;
 
+  try {
+    await StablePoolFactoryContract.callStatic.create(
+      name,
+      symbol,
+      tokens,
+      amplificationParameter,
+      swapFeePercentage,
+      delegate
+    );
+  } catch (error: any) {
+    console.error(`Static call failed. Transaction will probably fail.`);
+    console.error(error?.error);
+  }
+
   const transaction = await StablePoolFactoryContract.create(
     name,
     symbol,
     tokens,
     amplificationParameter,
     swapFeePercentage,
-    delegate
+    delegate,
+    {
+      ...transactionOverrides,
+    }
   );
-  const receipt = await transaction.wait(2);
+  const receipt = await transaction.wait(TRANSACTION_CONFIRMATIONS_TO_WAIT_FOR);
 
   const poolCreatedEvents = receipt?.events?.filter((e) => e.event === 'PoolCreated');
   if (poolCreatedEvents && poolCreatedEvents.length > 0) {

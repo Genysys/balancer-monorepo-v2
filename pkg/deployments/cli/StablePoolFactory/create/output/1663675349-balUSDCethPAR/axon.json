@@ -1,0 +1,25 @@
+{
+  "transaction": {
+    "hash": "0xf98a528280bbb6d7815b4bdec64ce8ad2ee3a0b0a6e89d0cc94eb342e058c8a6",
+    "blockNumber": 28737
+  },
+  "data": {
+    "StablePoolFactory": {
+      "create": {
+        "input": {
+          "name": "USDC.eth/PAR",
+          "symbol": "balUSDCethPAR",
+          "tokens": [
+            "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+            "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6"
+          ],
+          "amplificationParameter": "100",
+          "swapFeePercentage": "1000000000000000",
+          "delegate": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+        },
+        "output": "0x4ABEaCA4b05d8fA4CED09D26aD28Ea298E8afaC8"
+      }
+    }
+  },
+  "timestamp": 1663675349228
+}

@@ -3,12 +3,6 @@ export type AuthorizerDeployment = {
 };
 
 export default {
-  'godwoken-testnet': {
-    admin: '0x6bB75eBAC64f03E385e65c6236B3740ed3711f24',
-  },
-  'godwoken-mainnet': {
-    admin: '0x94Cf3eFD950a1ff9131C2BBa2D4983c37094C80A',
-  },
   goerli: {
     admin: '0xE0a171587b1Cae546E069A943EDa96916F5EE977',
   },
@@ -29,5 +23,8 @@ export default {
   },
   arbitrum: {
     admin: '0x6207ed574152496c9B072C24FD87cE9cd9E17320',
+  },
+  axon: {
+    admin: '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
   },
 };
