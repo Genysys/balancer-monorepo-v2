@@ -1,7 +1,7 @@
 {
   "transaction": {
-    "hash": "0xfb0facfe895b14f24e353b1aab59bba81f0008b65f802eccd37fe07e8cbc015e",
-    "blockNumber": 28894
+    "hash": "0xb70ae58b2d88c397de460bc6e9f9f56626a7dcf37ea4a19b3c8df082101d8123",
+    "blockNumber": 29504
   },
   "data": {
     "StablePoolFactory": {
@@ -10,16 +10,16 @@
           "name": "USDC.avax/PAR",
           "symbol": "balUSDCavaxPAR",
           "tokens": [
-            "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
-            "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853"
+            "0x09635F643e140090A9A8Dcd712eD6285858ceBef",
+            "0xc5a5C42992dECbae36851359345FE25997F5C42d"
           ],
           "amplificationParameter": "100",
           "swapFeePercentage": "1000000000000000",
           "delegate": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
         },
-        "output": "0x4AE5AF759E17599107c1C688bfaCF6131C376D51"
+        "output": "0xa9b19BA63eD2fFa19f50a63Bddf5F4a0092678C7"
       }
     }
   },
-  "timestamp": 1663675817172
+  "timestamp": 1663677648876
 }

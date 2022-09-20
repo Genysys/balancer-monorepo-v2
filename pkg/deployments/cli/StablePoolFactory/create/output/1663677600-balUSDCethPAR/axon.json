@@ -1,7 +1,7 @@
 {
   "transaction": {
-    "hash": "0xf98a528280bbb6d7815b4bdec64ce8ad2ee3a0b0a6e89d0cc94eb342e058c8a6",
-    "blockNumber": 28737
+    "hash": "0xbe5eebfd04a45999c3b37e99edb85c08988ecd512b593caafa2944df54ea36bf",
+    "blockNumber": 29487
   },
   "data": {
     "StablePoolFactory": {
@@ -10,16 +10,16 @@
           "name": "USDC.eth/PAR",
           "symbol": "balUSDCethPAR",
           "tokens": [
-            "0x0165878A594ca255338adfa4d48449f69242Eb8F",
-            "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6"
+            "0x7a2088a1bFc9d81c55368AE168C2C02570cB814F",
+            "0xc5a5C42992dECbae36851359345FE25997F5C42d"
           ],
           "amplificationParameter": "100",
           "swapFeePercentage": "1000000000000000",
           "delegate": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
         },
-        "output": "0x4ABEaCA4b05d8fA4CED09D26aD28Ea298E8afaC8"
+        "output": "0x1881d02D05a44713a69d6eDDE3e7167792A636d6"
       }
     }
   },
-  "timestamp": 1663675349228
+  "timestamp": 1663677600766
 }
