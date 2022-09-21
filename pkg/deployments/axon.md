@@ -3,6 +3,7 @@ Deploy factories:
 ```
 yarn hardhat deploy --id 20210418-authorizer --network axon
 yarn hardhat deploy --id 20210418-vault --network axon
+yarn hardhat deploy --id 20210418-weighted-pool --network axon
 yarn hardhat deploy --id 20210624-stable-pool --network axon
 ```
 
