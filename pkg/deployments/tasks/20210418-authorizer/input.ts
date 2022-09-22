@@ -12,12 +12,6 @@ export default {
   mainnet: {
     admin: '0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f',
   },
-  rinkeby: {
-    admin: '0xE0a171587b1Cae546E069A943EDa96916F5EE977',
-  },
-  ropsten: {
-    admin: '0xE0a171587b1Cae546E069A943EDa96916F5EE977',
-  },
   polygon: {
     admin: '0xd2bD536ADB0198f74D5f4f2Bd4Fe68Bae1e1Ba80',
   },
@@ -26,5 +20,8 @@ export default {
   },
   axon: {
     admin: '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
+  },
+  optimism: {
+    admin: '0xFB2ac3989B6AD0e043a8958004484d6BAAb2c6Ab',
   },
 };

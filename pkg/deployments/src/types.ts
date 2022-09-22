@@ -4,7 +4,18 @@ import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/dist/src/signer-wit
 
 import Task from './task';
 
-export const NETWORKS = ['axon'];
+export const NETWORKS = [
+  'godwoken-testnet',
+  'godwoken-mainnet',
+  'goerli',
+  'kovan',
+  'mainnet',
+  'rinkeby',
+  'ropsten',
+  'polygon',
+  'arbitrum',
+  'axon',
+];
 
 export type Network = typeof NETWORKS[number];
 
