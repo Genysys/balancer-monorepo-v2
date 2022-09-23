@@ -1,5 +1,6 @@
 {
-  "Vault": "0x93FD4F1F82dB2277Ad10935281883b94d5FFd89e",
-  "timestamp": 1663336104689,
-  "BalancerHelpers": "0xc0Ae2AFC45449a5Ba95cB15c244Cc9b46402ffe4"
+  "Vault": "0xd3414a8d4978E6fE918636Bc15660c1e6a03470b",
+  "timestamp": 1663929768845,
+  "ProtocolFeesCollector": "0x25f683b2B5e02518fE7fa73C0a423117B3ad9938",
+  "BalancerHelpers": "0xf386d6DCd8FC8941d6A01A64c2f268A082C1533A"
 }

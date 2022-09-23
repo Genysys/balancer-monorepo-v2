@@ -18,10 +18,13 @@ export default {
   arbitrum: {
     admin: '0x6207ed574152496c9B072C24FD87cE9cd9E17320',
   },
-  axon: {
-    admin: '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
-  },
   optimism: {
     admin: '0xFB2ac3989B6AD0e043a8958004484d6BAAb2c6Ab',
+  },
+  'godwoken-testnet': {
+    admin: '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
+  },
+  axon: {
+    admin: '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
   },
 };

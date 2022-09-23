@@ -13,7 +13,7 @@ const Authorizer = new Task('20210418-authorizer', TaskMode.READ_ONLY);
 export default {
   'godwoken-testnet': {
     Authorizer,
-    weth: '0x0000000000000000000000000000000000000000',
+    weth: '0x82F3c3a79fD86895Ef7FA87C61A914d266e6Fb5e',
     pauseWindowDuration: 3 * MONTH,
     bufferPeriodDuration: MONTH,
   },
@@ -53,15 +53,15 @@ export default {
     pauseWindowDuration: 3 * MONTH,
     bufferPeriodDuration: MONTH,
   },
-  axon: {
-    Authorizer,
-    weth: '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512',
-    pauseWindowDuration: 3 * MONTH,
-    bufferPeriodDuration: MONTH,
-  },
   optimism: {
     Authorizer,
     weth: '0x4200000000000000000000000000000000000006',
+    pauseWindowDuration: 3 * MONTH,
+    bufferPeriodDuration: MONTH,
+  },
+  axon: {
+    Authorizer,
+    weth: '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512',
     pauseWindowDuration: 3 * MONTH,
     bufferPeriodDuration: MONTH,
   },

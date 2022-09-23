@@ -12,7 +12,7 @@ Deploy Stable Pool:
 yarn hardhat run cli/index.ts --network axon
 ```
 
-Axon network config for hardhat:
+Axon network config for hardhat (eg. `~/.hardhat/networks.json`):
 ```
 {
   // ...
@@ -20,6 +20,9 @@ Axon network config for hardhat:
     // ...
     "axon": {
       "url": "http://34.204.204.212:8000"
+    },
+    "godwoken-testnet": {
+      "url": "https://godwoken-testnet-v1.ckbapp.dev"
     }
   },
   "defaultConfig": {
