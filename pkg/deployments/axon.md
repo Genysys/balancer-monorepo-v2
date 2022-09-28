@@ -33,4 +33,7 @@ Axon network config for hardhat (eg. `~/.hardhat/networks.json`):
     }
   }
 };
+
+- Deploy tokens using remix
+
 ```

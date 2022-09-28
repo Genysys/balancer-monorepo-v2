@@ -47,7 +47,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "ethers": "^5.4.1",
     "hardhat": "^2.11.1",
-    "hardhat-local-networks-config-plugin": "0.0.5",
+    "hardhat-local-networks-config-plugin": "^0.0.6",
     "lodash.range": "^3.2.0",
     "node-fetch": "^2.6.1",
     "prettier": "^2.1.2",

@@ -1,0 +1,25 @@
+{
+  "transaction": {
+    "hash": "0x8d4a12628a38a6480202426a8b910c3f86d795c9225d4d25609abe9d7441fa86",
+    "blockNumber": 224121
+  },
+  "data": {
+    "StablePoolFactory": {
+      "create": {
+        "input": {
+          "name": "OmniUSDCavax",
+          "symbol": "OmniUSDCavax",
+          "tokens": [
+            "0x354D40DBa2A50D7AEb75228a2BbaE858Ede40FD7",
+            "0x6c974538ac82bF2cbA2F2161A554CbC30847Deba"
+          ],
+          "amplificationParameter": "100",
+          "swapFeePercentage": "1000000000000000",
+          "owner": "0xe7d5869FE1955F2500987B9eCCFF0a9452c164cf"
+        },
+        "output": "0xB955b6c65Ff69bfe07A557aa385055282b8a5eA3"
+      }
+    }
+  },
+  "timestamp": 1664262154177
+}

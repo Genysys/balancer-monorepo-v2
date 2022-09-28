@@ -184,7 +184,7 @@ __metadata:
     eslint-plugin-prettier: ^3.1.4
     ethers: ^5.4.1
     hardhat: ^2.11.1
-    hardhat-local-networks-config-plugin: 0.0.5
+    hardhat-local-networks-config-plugin: ^0.0.6
     lodash.range: ^3.2.0
     node-fetch: ^2.6.1
     prettier: ^2.1.2
@@ -7523,12 +7523,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hardhat-local-networks-config-plugin@npm:0.0.5":
-  version: 0.0.5
-  resolution: "hardhat-local-networks-config-plugin@npm:0.0.5"
+"hardhat-local-networks-config-plugin@npm:^0.0.6":
+  version: 0.0.6
+  resolution: "hardhat-local-networks-config-plugin@npm:0.0.6"
+  dependencies:
+    deepmerge: ^4.2.2
   peerDependencies:
     hardhat: ^2.0.8
-  checksum: d8ec47a2f2bde5535fa4451c7a9079b200362220893d8aa83b1e115f66df983dc844e10d03deeb1d57a45f0a34b20ebe4ba0361b2d82d190c5352eb8e346569e
+  checksum: 15249dafecc247f5384f78139cca969717f5f12bf961fa3bf9ead25de5d2bc6674f339b8b236fc93e06c17605e000ae546527d62ae70a512688d41ffb02c961f
   languageName: node
   linkType: hard
 
